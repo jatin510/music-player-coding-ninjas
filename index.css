@@ -1,10 +1,14 @@
 * {
   padding: 0;
   margin: 0;
+  background-color: rgb(36, 5, 87);
 }
 body {
   border: 1px solid black;
   background-color: rgb(36, 5, 87);
+}
+.fa-placholder {
+  font-family: "FontAwesome";
 }
 li {
   text-decoration: none;
@@ -12,7 +16,7 @@ li {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 15px 20px 15px 20px;
+  padding: 18px 20px 18px 20px;
 }
 
 .search input {
@@ -24,4 +28,60 @@ nav {
 .navbar ul li {
   display: inline;
   padding: 0px 5px 0px 5px;
+}
+
+/* section */
+
+main {
+  /* display: inline; */
+  width: 90%;
+  margin: auto;
+}
+section {
+  width: 70%;
+  border: 1px solid black;
+  float: left;
+}
+
+.main-class section {
+  width: 100%;
+}
+
+.carousel {
+  width: 100%;
+  position: relative;
+}
+
+.carousel div {
+  display: inline-block;
+  width: 45%;
+}
+
+.middle {
+  position: absolute;
+  left: 15%;
+}
+
+.middle img {
+  width: 100%;
+}
+
+/* release card */
+.release-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.release-card {
+  width: 48%;
+  border: 1px solid green;
+}
+
+/* aside */
+
+aside {
+  width: 29%;
+  border: 1px solid red;
+  float: right;
 }
